@@ -44,30 +44,14 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="▷",
-                callback_data=f"ADMIN Pause|{chat_id}",
+                text="𝙊𝙬𝙣𝙚𝙧",
+                url=f"https://t.me/ll_zalim_queen_ll",
             ),
             InlineKeyboardButton(
-                text="ɪɪ",
-                callback_data=f"ADMIN Resume|{chat_id}",
+                text="𝙂𝙧𝙤𝙪𝙥",
+                url=f"https://t.me/GJ516_DISCUSS_GROUP"
             ),
-            InlineKeyboardButton(
-                text="✮",
-                callback_data=f"add_playlist {videoid}",
-            ),
-            InlineKeyboardButton(
-                text="‣‣",
-                callback_data=f"ADMIN Skip|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="▢",
-                callback_data=f"ADMIN Stop|{chat_id}",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
-            )
+       
         ],
     ]
     return buttons
