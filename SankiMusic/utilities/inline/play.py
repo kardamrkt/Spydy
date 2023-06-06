@@ -333,37 +333,10 @@ def queue_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="✭ ᴜᴘᴅᴀᴛᴇs ✭", url=config.SUPPORT_CHANNEL
+                text="𝙊𝙬𝙣𝙚𝙧", url=f"https://t.me/ll_zalim_queen_ll"
             ),
             InlineKeyboardButton(
-                text="✭ sᴜᴘᴘᴏʀᴛ ✭", url=config.SUPPORT_GROUP
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="▷",
-                callback_data=f"ADMIN Pause|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="ɪɪ",
-                callback_data=f"ADMIN Resume|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="✮",
-                callback_data=f"add_playlist {videoid}",
-            ),
-            InlineKeyboardButton(
-                text="‣‣",
-                callback_data=f"ADMIN Skip|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="▢",
-                callback_data=f"ADMIN Stop|{chat_id}",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
+                text="𝙂𝙧𝙤𝙪𝙥", url=f"https://t.me/GJ516_DISCUSS_GROUP"
             )
         ],
     ]
