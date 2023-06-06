@@ -17,23 +17,23 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     if 0 < sanki <= 10:
         bar = "▰▱▱▱▱▱▱▱▱▱"
     elif 10 < sanki < 20:
-        bar = "▱▰▱▱▱▱▱▱▱▱"
+        bar = "▰▰▱▱▱▱▱▱▱▱"
     elif 20 <= sanki < 30:
-        bar = "▱▱▰▱▱▱▱▱▱▱"
+        bar = "▰▰▰▱▱▱▱▱▱▱"
     elif 30 <= sanki < 40:
-        bar = "▱▱▱▰▱▱▱▱▱▱"
+        bar = "▰▰▰▰▱▱▱▱▱▱"
     elif 40 <= sanki < 50:
-        bar = "▱▱▱▱▰▱▱▱▱▱"
+        bar = "▰▰▰▰▰▱▱▱▱▱"
     elif 50 <= sanki < 60:
-        bar = " ▱▱▱▱▱▰▱▱▱▱"
+        bar = "▰▰▰▰▰▰▱▱▱▱"
     elif 60 <= sanki < 70:
-        bar = "▱▱▱▱▱▱▰▱▱▱"
+        bar = "▰▰▰▰▰▰▰▱▱▱"
     elif 70 <= sanki < 80:
-        bar = "▱▱▱▱▱▱▱▰▱▱"
+        bar = "▰▰▰▰▰▰▰▰▱▱"
     elif 80 <= sanki < 95:
-        bar = "▱▱▱▱▱▱▱▱▰▱"
+        bar = "▰▰▰▰▰▰▰▰▰▱"
     else:
-        bar = "▱▱▱▱▱▱▱▱▱▰"
+        bar = "▰▰▰▰▰▰▰▰▰▰"
 
     buttons = [
         [
@@ -81,23 +81,23 @@ def telegram_markup_timer(_, chat_id, played, dur):
     if 0 < sanki <= 10:
         bar = "▰▱▱▱▱▱▱▱▱▱"
     elif 10 < sanki < 20:
-        bar = "▱▰▱▱▱▱▱▱▱▱"
+        bar = "▰▰▱▱▱▱▱▱▱▱"
     elif 20 <= sanki < 30:
-        bar = "▱▱▰▱▱▱▱▱▱▱"
+        bar = "▰▰▰▱▱▱▱▱▱▱"
     elif 30 <= sanki < 40:
-        bar = "▱▱▱▰▱▱▱▱▱▱"
+        bar = "▰▰▰▰▱▱▱▱▱▱"
     elif 40 <= sanki < 50:
-        bar = "▱▱▱▱▰▱▱▱▱▱"
+        bar = "▰▰▰▰▰▱▱▱▱▱"
     elif 50 <= sanki < 60:
-        bar = " ▱▱▱▱▱▰▱▱▱▱"
+        bar = "▰▰▰▰▰▰▱▱▱▱"
     elif 60 <= sanki < 70:
-        bar = "▱▱▱▱▱▱▰▱▱▱"
+        bar = "▰▰▰▰▰▰▰▱▱▱"
     elif 70 <= sanki < 80:
-        bar = "▱▱▱▱▱▱▱▰▱▱"
+        bar = "▰▰▰▰▰▰▰▰▱▱"
     elif 80 <= sanki < 95:
-        bar = "▱▱▱▱▱▱▱▱▰▱"
+        bar = "▰▰▰▰▰▰▰▰▰▱"
     else:
-        bar = "▱▱▱▱▱▱▱▱▱▰"
+        bar = "▰▰▰▰▰▰▰▰▰▰"
 
     buttons = [
         [
