@@ -47,9 +47,9 @@ class App(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("GJ516_DISCUSS_GROUP")
-                await self.one.join_chat("GJ516_DISCUSS_GROUP")
-                await self.one.join_chat("myworldGJ516")
+                await self.one.join_chat("RI_KA_GAMING")
+                await self.one.join_chat("RI_KA_GAMING")
+                await self.one.join_chat("RI_KA_GAMING")
             except:
                 pass
             assistants.append(1)
@@ -79,9 +79,9 @@ class App(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("GJ516_DISCUSS_GROUP")
+                await self.two.join_chat("RI_KA_GAMING")
                 await self.one.join_chat("GJ516_DISCUSS_GROUP")
-                await self.one.join_chat("myworldGJ516")
+                await self.one.join_chat("RI_KA_GAMING")
             except:
                 pass
             assistants.append(2)
@@ -111,9 +111,9 @@ class App(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("GJ516_DISCUSS_GROUP")
+                await self.three.join_chat("RI_KA_GAMING")
                 await self.one.join_chat("GJ516_DISCUSS_GROUP")
-                await self.one.join_chat("myworldGJ516")
+                await self.one.join_chat("RI_KA_GAMING")
             except:
                 pass
             assistants.append(3)
